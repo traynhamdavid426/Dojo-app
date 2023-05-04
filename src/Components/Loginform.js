@@ -5,10 +5,17 @@ import Signup from "./Signup";
 
 const Loginform =() =>{
     
-    const [currentform, setCurrentForm] = ('login');
-    
-    return(<div>
-    
-{currentform === Signin ? <Signin/> : <Signup/>} {/* checks boolean for statement. Dispays which one is true. */}
+    const [currentForm, setCurrentForm] = useState('signin');
+
+    const toggleForm = (formName) => {
+      setCurrentForm(formName);
+    }
+  
+    return (
+      <div >
+        {
+          currentForm === "signin" ? <Signin onFormSwitch={toggleForm} /> : <Signup onFormSwitch={toggleForm} />
+        } {/* checks boolean for statement. Dispays which one is true. */}
 
 </div>)}
+export default Loginform;

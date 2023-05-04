@@ -1,12 +1,13 @@
 
 import './App.css';
-import Signin from './Components/Signin';
-import Navbar from './Components/Navbar';
+import Aboutus from './Components/Aboutus';
+
+import Loginform from './Components/Loginform'
 function App() {
   return (
     <div className="App">
-    
-     <Signin/>
+    <Aboutus/>
+     <Loginform/>
     </div>
   );
 }

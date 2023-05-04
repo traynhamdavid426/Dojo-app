@@ -1,28 +1,27 @@
 import React, {useState} from "react";
 
 
-const Signin =() => {
+const Signin =(props) => {
    
-    const [email,setEmail] = useState('');
-    const [password,setPassword] = useState('');
-    const handleInput =(e) =>{
-        e.preventDefault(); // prevents page reloading.
-        console.log(email)}
-        
-    
-    return(<div>
-     <form onSubmit={handleInput}>
-   <div>  <label for='email:'>email</label>
-<input type="email" value={email} placeholder="youremail@emailprovider.com"/></div>
+    const [email, setEmail] = useState('');
+    const [pass, setPass] = useState('');
 
-<div>  <label for='password:'>password</label>
-<input type="password" value={password} placeholder="*****"/></div>
-<div><button type="submit">
-Log in
-</button></div>
- </form>
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(email);
+    }
 
- <button >Dont have an account? Sign up here!</button>
+    return (
+        <div >
+            <h2>Sign in</h2>
+            <form  onSubmit={handleSubmit}>
+                <label htmlFor="email">email</label>
+                <input value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="youremail@email.com" id="email" name="email" />
+                <label htmlFor="password">password</label>
+                <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
+                <button type="submit">Sign In</button>
+            </form>
+            <button  onClick={() => props.onFormSwitch('signup')}>Don't have an account? Signup here.</button>
 </div>)}
 
 export default Signin;
