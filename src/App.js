@@ -1,6 +1,7 @@
 
 import './App.css';
 import Aboutus from './Components/Aboutus';
+import Classes from './Components/Classes';
 
 import Loginform from './Components/Loginform'
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
     <Aboutus/>
      <Loginform/>
+     <Classes/>
     </div>
   );
 }

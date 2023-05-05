@@ -1,6 +1,6 @@
 import React from "react";
 
-const Classes =() => {
+const Instructors =() => {
     
     const Class =[{
         art:'Brazilian Jiu-jitsu',
@@ -52,4 +52,4 @@ const Classes =() => {
     <Classdisplay/>
 </div>)}
 
-export default Classes;
+export default Instructors;
