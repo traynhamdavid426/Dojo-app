@@ -1,6 +1,6 @@
 import React,{useState} from "react";
-import Signin from "./Signin";
-import Signup from "./Signup";
+import Signin from "../Signin";
+import Signup from "../Signup";
 
 
 const Loginform =() =>{
@@ -12,7 +12,7 @@ const Loginform =() =>{
     }
   
     return (
-      <div >
+      <div  id="signin">
         {
           currentForm === "signin" ? <Signin onFormSwitch={toggleForm} /> : <Signup onFormSwitch={toggleForm} />
         } {/* checks boolean for statement. Dispays which one is true. */}

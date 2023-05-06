@@ -2,7 +2,6 @@ import React from "react";
 
 const Aboutus =() =>{return(<div>
 
-<h1>Welcome to Reemerge MMA("we dont sink, we swim").</h1>
 
 
     <h3>Who we are:</h3>
