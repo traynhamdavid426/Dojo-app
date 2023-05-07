@@ -30,7 +30,9 @@ const Instructors =() => {
     },];
 
     const Classlist =({art,description,gear,instructor}) => {return(<div>
-         <div>{art}
+         <div>{instructor}</div>
+         <div>
+         <div>{art}</div>
          {description}
          {gear}</div>
 

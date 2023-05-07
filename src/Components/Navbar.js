@@ -5,6 +5,10 @@ import Signup from "./Signup";
 import Home from "./Groupedcomponents/Home";
 import Loginform from "./Groupedcomponents/Loginform";
 import Schedules from "./Groupedcomponents/Schedules";
+import Aboutus from "./Aboutus";
+import Classes from "./Classes";
+import Instructors from "./Instructors";
+
 
 
 const Navbar =() =>{return(<div>
@@ -15,7 +19,6 @@ const Navbar =() =>{return(<div>
     <div>
 <nav>
 <Link to='/'>Home</Link>
-<Link to='loginform'>Singin/up</Link>
 <Link to='Schedules'>Schedule</Link>
 
 
@@ -23,11 +26,18 @@ const Navbar =() =>{return(<div>
 </div>
  </header>
 
+ 
+
  <Routes>
- <Route path='/' element ={<Home/>}/>
+ <Route path='/' element ={<Home/>}>
+ <Route path='signup/in' element ={<Loginform/>}/>
+ <Route path='about' element ={<Aboutus/>}/>
+ <Route path='classes' element ={<Classes/>}/>
+ <Route path='instructors' element ={<Instructors/>}/>
+ </Route>
+
  <Route path='signup' element ={<Signup/>}/>
  <Route path='signin' element ={<Signin/>}/>
- <Route path='loginform' element ={<Loginform/>}/>
  <Route path='schedules' element ={<Schedules/>}/>
 
  

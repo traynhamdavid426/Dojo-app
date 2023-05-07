@@ -26,13 +26,13 @@ function DynamicSchedule() {
       greeting = "Happy Friday!,  Today's schedule is Brazilian Jiu-jitsu: 6am-745am, 4pm-5pm, Muay Thai: 8am-930am, 530pm-7pm, Boxing: 7pm-8pm, Armed Combatives: 8pm-845pm, Wrestling: 845pm-945pm";
       break;
     case "Saturday":
-      greeting = "Happy Saturday!,Today's schedule is Brazilian Jiu-jitsu:, Muay Thai:, Boxing:, Armed Combatives:, Wrestling: ";
+      greeting = <div>Happy Saturday!,Today's schedule is <> Brazilian Jiu-jitsu: 6am-745am, 4pm-5pm,</><> Muay Thai: 8am-930am, 530pm-7pm,</> <> Boxing: 7pm-8pm,</> <>Armed Combatives: 8pm-845pm,</> <> Wrestling: 845pm-945pm</> </div> ;
       break;
     default:
       greeting = " Today's schedule is Brazilian Jiu-jitsu: 6am-745am, 4pm-5pm, Muay Thai: 8am-930am, 530pm-7pm, Boxing: 7pm-8pm, Armed Combatives: 8pm-845pm, Wrestling: 845pm-945pm";
   }
 
-  return <h1>{greeting}</h1>;
+  return <h2>{greeting}</h2>;
 }
 
 export default DynamicSchedule;

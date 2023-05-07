@@ -5,6 +5,8 @@ import Schedule from '../Schedule'
 const Schedules =() => {return(<div>
 
 <DynamicSchedule/>
+
+<h3>Full Schedule:</h3>
 <Schedule/>
 
 </div>)}

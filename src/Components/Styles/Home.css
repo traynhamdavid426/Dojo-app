@@ -1,0 +1,17 @@
+.background{ color: blue;}
+.about{background-color: aqua;
+       padding: 5px 20px;
+       border-radius: 4px;
+        margin:20px}
+
+        .homestyle nav  {display: flex;
+        justify-content: center;
+        gap: 40px ;
+        margin: 30px 0;}
+
+        .homestyle nav a { padding:10px;
+        border: 2px, green;
+        border-radius: 4px;
+         text-decoration: none;}
+
+         .homestyle nav a:hover {border-color: black ;}

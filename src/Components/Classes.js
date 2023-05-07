@@ -29,7 +29,8 @@ const Classes =() => {
     },];
 
     const Classlist =({art,description,gear}) => {return(<div>
-         <div>{art}
+         <div>
+         <div>{art}</div>
          {description}
          {gear}</div>
 

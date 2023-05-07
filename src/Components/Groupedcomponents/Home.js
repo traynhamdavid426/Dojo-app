@@ -1,11 +1,30 @@
 import React from "react";
-import Loginform from "./Loginform";
-import Aboutus from "../Aboutus";
+import { NavLink, Outlet } from "react-router-dom";
+import '../Styles/Home.css'
 
-const Home =() => {return(<div>
-<h1>Welcome to Reemerge MMA("we dont sink, we swim").</h1>
-<Loginform/>
-<Aboutus/>
+
+const Home =() => {
+    
+    return(
+    
+    <div className=" homestyle">
+
+
+
+
+<nav>
+    <NavLink to ='about'>About us</NavLink>
+    <NavLink to ='signup/in'>Signup/in</NavLink>
+    <NavLink to ='classes'>Classes</NavLink>
+    <NavLink to ='instructors'>Instructors</NavLink>
+
+</nav>
+<h1>Reemerge MMA("we dont sink, we swim").</h1>
+
+<Outlet/>
+
+
+
 
 </div>)}
 

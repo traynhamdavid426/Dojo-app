@@ -12,7 +12,7 @@ const Loginform =() =>{
     }
   
     return (
-      <div  id="signin">
+      <div  id="sign">
         {
           currentForm === "signin" ? <Signin onFormSwitch={toggleForm} /> : <Signup onFormSwitch={toggleForm} />
         } {/* checks boolean for statement. Dispays which one is true. */}
