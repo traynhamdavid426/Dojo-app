@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dojo-app/static/css/main.09d6aa88.css",
+    "main.js": "/dojo-app/static/js/main.9844c999.js",
+    "static/js/787.fdd65818.chunk.js": "/dojo-app/static/js/787.fdd65818.chunk.js",
+    "index.html": "/dojo-app/index.html",
+    "main.09d6aa88.css.map": "/dojo-app/static/css/main.09d6aa88.css.map",
+    "main.9844c999.js.map": "/dojo-app/static/js/main.9844c999.js.map",
+    "787.fdd65818.chunk.js.map": "/dojo-app/static/js/787.fdd65818.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09d6aa88.css",
+    "static/js/main.9844c999.js"
+  ]
+}
