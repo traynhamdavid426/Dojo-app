@@ -1,0 +1,27 @@
+.class-display-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item-container {
+    width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+  }
+  
+  
+  
+  .item-details {
+    margin-top: 0.5rem;
+  }
+  
+  .art,
+  .description,
+  .gear {
+    margin-bottom: 0.5rem;
+  }

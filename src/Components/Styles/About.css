@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Add margin to headings */
+  h3 {
+    margin: 20px 0;
+  }
+  
+  /* Add padding and center text in paragraphs */
+  p {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Make the page responsive */
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  

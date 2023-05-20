@@ -1,12 +1,12 @@
 import React from "react";
-import './Styles/Home.css'
+import '../Components/Styles/About.css'
 
-const Aboutus =() =>{return(<div className="about">
+const Aboutus =() =>{return(<div className="container">
 
 
 
     <h3>Who we are:</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus. Ut aliquam purus sit amet luctus venenatis lectus. Natoque penatibus et magnis dis parturient montes. Feugiat scelerisque varius morbi enim nunc faucibus. Arcu bibendum at varius vel pharetra vel turpis. Ac turpis egestas sed tempus urna et pharetra pharetra. Commodo nulla facilisi nullam vehicula ipsum a arcu. Cras sed felis eget velit aliquet sagittis. Feugiat in ante metus dictum at tempor commodo ullamcorper. Pharetra pharetra massa massa ultricies. Id porta nibh venenatis cras sed felis eget. Quis varius quam quisque id diam vel quam elementum pulvinar. Diam in arcu cursus euismod.
+    <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus. Ut aliquam purus sit amet luctus venenatis lectus. Natoque penatibus et magnis dis parturient montes. Feugiat scelerisque varius morbi enim nunc faucibus. Arcu bibendum at varius vel pharetra vel turpis. Ac turpis egestas sed tempus urna et pharetra pharetra. Commodo nulla facilisi nullam vehicula ipsum a arcu. Cras sed felis eget velit aliquet sagittis. Feugiat in ante metus dictum at tempor commodo ullamcorper. Pharetra pharetra massa massa ultricies. Id porta nibh venenatis cras sed felis eget. Quis varius quam quisque id diam vel quam elementum pulvinar. Diam in arcu cursus euismod.
 
 Nunc faucibus a pellentesque sit amet porttitor. Fames ac turpis egestas maecenas pharetra convallis. Rhoncus mattis rhoncus urna neque viverra. Lacus sed viverra tellus in. Iaculis urna id volutpat lacus laoreet non curabitur. Commodo odio aenean sed adipiscing diam donec adipiscing. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan. Vestibulum lorem sed risus ultricies. Commodo elit at imperdiet dui accumsan sit amet. Mauris ultrices eros in cursus turpis massa tincidunt. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque.
 
