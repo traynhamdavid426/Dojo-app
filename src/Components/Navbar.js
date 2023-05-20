@@ -8,6 +8,7 @@ import Schedules from "./Groupedcomponents/Schedules";
 import Aboutus from "./Aboutus";
 import Classes from "./Classes";
 import Instructors from "./Instructors";
+import Contactus from './Contactus'
 
 
 
@@ -34,6 +35,7 @@ const Navbar =() =>{return(<div>
  <Route path='about' element ={<Aboutus/>}/>
  <Route path='classes' element ={<Classes/>}/>
  <Route path='instructors' element ={<Instructors/>}/>
+ <Route path='contact' element ={<Contactus/>}/>
  </Route>
 
  <Route path='signup' element ={<Signup/>}/>

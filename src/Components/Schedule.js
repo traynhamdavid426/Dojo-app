@@ -1,9 +1,10 @@
 import React from "react";
+import FitnessClassTable from "./FitnessClassTable";
 
 const Schedule =() => { return(
     <div>
 
-    <h1>Build form table css</h1>
+    <FitnessClassTable/>
 
 </div>)}
 

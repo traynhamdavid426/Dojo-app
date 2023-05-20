@@ -17,6 +17,7 @@ const Home =() => {
     <NavLink to ='signup/in'>Signup/in</NavLink>
     <NavLink to ='classes'>Classes</NavLink>
     <NavLink to ='instructors'>Instructors</NavLink>
+    <NavLink to ='contact'>Reach Out</NavLink>
 
 </nav>
 <h1>Reemerge MMA("we dont sink, we swim").</h1>
