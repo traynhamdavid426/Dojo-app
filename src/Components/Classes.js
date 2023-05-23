@@ -36,9 +36,9 @@ const Classes =() => {
               return (
                 <div key={i} className="item-container">
                   <div className="item-details">
-                    <div className="art">{item.art}</div>
-                    <div className="description">{item.description}</div>
-                    <div className="gear">{item.gear}</div>
+                    <div className="art fw6 f3 navy">{item.art}:</div>
+                    <div className="description fw5 f5">{item.description}</div>
+                    <div className="gear fw5 f5">{item.gear}</div>
                   </div>
                 </div>
               );

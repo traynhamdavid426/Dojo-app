@@ -36,11 +36,11 @@ const Instructors =() => {
             {Class.map((item, i) => {
               return (
                 <div key={i} className="item-container">
-                  <div className="instructor">{item.instructor}</div>
+                  <div className="instructor navy f3">{item.instructor}</div>
                   <div className="item-details">
-                    <div className="art">{item.art}</div>
-                    <div className="description">{item.description}</div>
-                    <div className="gear">{item.gear}</div>
+                    <div className="art f4 fw5">{item.art}</div>
+                    <div className="description fw5 f5">{item.description}</div>
+                    <div className="gear fw5 f5">{item.gear}</div>
                   </div>
                 </div>
               );

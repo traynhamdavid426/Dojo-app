@@ -9,6 +9,7 @@ import Aboutus from "./Aboutus";
 import Classes from "./Classes";
 import Instructors from "./Instructors";
 import Contactus from './Contactus'
+import '../Components/Styles/Nav.css'
 
 
 
@@ -18,7 +19,7 @@ const Navbar =() =>{return(<div>
     <BrowserRouter>
     <header>
     <div>
-<nav>
+<nav className="nav">
 <Link to='/'>Home</Link>
 <Link to='Schedules'>Schedule</Link>
 

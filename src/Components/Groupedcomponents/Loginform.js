@@ -1,21 +1,26 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import Signin from "../Signin";
 import Signup from "../Signup";
+import "../Styles/Loginform.css"; 
 
+const Loginform = () => {
+  const [currentForm, setCurrentForm] = useState("signin");
 
-const Loginform =() =>{
-    
-    const [currentForm, setCurrentForm] = useState('signin');
+  const toggleForm = (formName) => {
+    setCurrentForm(formName);
+  };
 
-    const toggleForm = (formName) => {
-      setCurrentForm(formName);
-    }
-  
-    return (
-      <div  id="sign">
-        {
-          currentForm === "signin" ? <Signin onFormSwitch={toggleForm} /> : <Signup onFormSwitch={toggleForm} />
-        } {/* checks boolean for statement. Dispays which one is true. */}
+  return (
+    <div className="login-forms">
+      <div>
+        {currentForm === "signin" ? (
+          <Signin onFormSwitch={toggleForm} />
+        ) : (
+          <Signup onFormSwitch={toggleForm} />
+        )}
+      </div>
+    </div>
+  );
+};
 
-</div>)}
 export default Loginform;

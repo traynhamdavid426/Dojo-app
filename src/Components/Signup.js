@@ -14,9 +14,9 @@ const Signup =(props) =>{
     }
 
     return (
-        <div >
+        <div  className="auth-form-container">
             <h2>Sign up</h2>
-        <form  onSubmit={handleSubmit}>
+        <form className="register-form" onSubmit={handleSubmit}>
             <label htmlFor="name">Full name</label>
             <input value={name} name="name" onChange={(e) => setName(e.target.value)} id="name" placeholder="full Name" />
             <label htmlFor="email">email</label>

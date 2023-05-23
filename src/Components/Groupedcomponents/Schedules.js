@@ -6,7 +6,7 @@ const Schedules =() => {return(<div>
 
 <DynamicSchedule/>
 
-<h3>Full Schedule:</h3>
+<h2 className="navy f2">Full Schedule:</h2>
 <Schedule/>
 
 </div>)}
