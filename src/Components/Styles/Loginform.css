@@ -35,12 +35,15 @@
   }
   
   button {
-    border: none;
-    background-color: white;
+    border: 4px;
+    border-width: 5px;
+    border-style: groove;
+    background-color: transparent;
     padding: 20px;
-    border-radius: 10px;
+  
+    border-radius: 20px;
     cursor: pointer;
-    color: #7439db;
+    color:white
   }
   
   .link-btn {
