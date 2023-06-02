@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter,Route,Routes,Link } from "react-router-dom";
+import { Route,Routes,Link } from "react-router-dom";
 import Signin from "./Signin";
 import Signup from "./Signup";
 import Home from "./Groupedcomponents/Home";
@@ -7,6 +7,7 @@ import Loginform from "./Groupedcomponents/Loginform";
 import Schedules from "./Groupedcomponents/Schedules";
 import Aboutus from "./Aboutus";
 import Classes from "./Classes";
+import App from "../App";
 import Instructors from "./Instructors";
 import Contactus from './Contactus'
 import '../Components/Styles/Nav.css'
@@ -16,7 +17,7 @@ import '../Components/Styles/Nav.css'
 const Navbar =() =>{return(<div>
 
     
-    <BrowserRouter>
+    
     <header>
     <div>
 <nav className="nav">
@@ -31,7 +32,9 @@ const Navbar =() =>{return(<div>
  
 
  <Routes>
- <Route path='/' element ={<Home/>}>
+ <Route path='/*' element={<Home/>}/>
+ <Route path = '/' element={<Home/>}>
+ <Route index element ={<Aboutus/>}/>
  <Route path='signup/in' element ={<Loginform/>}/>
  <Route path='about' element ={<Aboutus/>}/>
  <Route path='classes' element ={<Classes/>}/>
@@ -45,7 +48,7 @@ const Navbar =() =>{return(<div>
 
  
  </Routes>
-    </BrowserRouter>
+    
 
 </div>)}
 

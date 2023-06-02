@@ -3,9 +3,12 @@ import { NavLink, Outlet } from "react-router-dom";
 import '../Styles/Home.css'
 
 
+
 const Home =() => {
     
-    return(
+    return(<div>
+
+    
     
     <div className=" homestyle">
 
@@ -20,13 +23,13 @@ const Home =() => {
     <NavLink to ='contact'>Reach Out</NavLink>
 
 </nav>
-<h1>Reemerge MMA("we dont sink, we swim").</h1>
+<h1>Reemerge MMA("we dont sink; we swim").</h1>
 
 <Outlet/>
 
 
 
 
-</div>)}
+</div></div>)}
 
 export default Home;
