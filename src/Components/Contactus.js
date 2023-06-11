@@ -1,6 +1,8 @@
 import React from "react";
+import  './Styles/contact.css';
 
-const Contactus =() => {return(<div>
+
+const Contactus =() => {return(<div className="body full-screen ">
 
 <h1 className="navy">Contact us:</h1>
 

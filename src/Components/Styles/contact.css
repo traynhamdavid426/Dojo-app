@@ -1,0 +1,6 @@
+.body{background-image: url(/src/Components/Styles/logo/dojoapp.jpg);}
+
+.full-screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;}
