@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/dojo-app/static/css/main.8de266a5.css",
-    "main.js": "/dojo-app/static/js/main.87a9aa57.js",
+    "main.css": "/dojo-app/static/css/main.50af6cdd.css",
+    "main.js": "/dojo-app/static/js/main.d2f5d42d.js",
     "static/js/787.fdd65818.chunk.js": "/dojo-app/static/js/787.fdd65818.chunk.js",
+    "static/media/combat instructor.jpg": "/dojo-app/static/media/combat instructor.8e7c7c8fd7ed7101f088.jpg",
+    "static/media/jiujitsu.jpg": "/dojo-app/static/media/jiujitsu.df56172ba1a6d17686c3.jpg",
+    "static/media/jitsu instructor.jpg": "/dojo-app/static/media/jitsu instructor.2e827fe4c7defa74d767.jpg",
+    "static/media/combat.jpg": "/dojo-app/static/media/combat.9149a33bfd50d12c8d2f.jpg",
+    "static/media/boxing.jpg": "/dojo-app/static/media/boxing.edb2f93757704caaac53.jpg",
+    "static/media/wrestling.png": "/dojo-app/static/media/wrestling.4f8c75ce49c286f40728.png",
+    "static/media/dojoapp.jpg": "/dojo-app/static/media/dojoapp.833b17a1fbbade8d9570.jpg",
+    "static/media/muaythai instructor.jpg": "/dojo-app/static/media/muaythai instructor.3916e5be75aa5bb42490.jpg",
+    "static/media/boxing instructor.jpg": "/dojo-app/static/media/boxing instructor.0dad8f609087383a6ad1.jpg",
+    "static/media/muaythgai.png": "/dojo-app/static/media/muaythgai.b1ca82f157a1be7cb7fe.png",
+    "static/media/wrest instructor.jpg": "/dojo-app/static/media/wrest instructor.8ac824bb52f4a312f133.jpg",
     "index.html": "/dojo-app/index.html",
-    "main.8de266a5.css.map": "/dojo-app/static/css/main.8de266a5.css.map",
-    "main.87a9aa57.js.map": "/dojo-app/static/js/main.87a9aa57.js.map",
+    "main.50af6cdd.css.map": "/dojo-app/static/css/main.50af6cdd.css.map",
+    "main.d2f5d42d.js.map": "/dojo-app/static/js/main.d2f5d42d.js.map",
     "787.fdd65818.chunk.js.map": "/dojo-app/static/js/787.fdd65818.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8de266a5.css",
-    "static/js/main.87a9aa57.js"
+    "static/css/main.50af6cdd.css",
+    "static/js/main.d2f5d42d.js"
   ]
 }
